@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding="utf-8"?>
+<!-- © Copyright 2017 The MathWorks, Inc. -->
+
+<toc version="2.0">
+<!-- First tocitem specifies top level in Help browser Contents pane -->
+<!-- This can be a roadmap page, as shown below, or a content page -->
+    <tocitem target="ProductPage/html/physvis_toolbox_product_page.html">PHYSVIS Toolbox
+        <!-- Nest tocitems to create hierarchical entries in  Contents-->
+        <!-- To include icons, use the following syntax for tocitems: -->
+        <!-- <tocitem target="foo.html" image="HelpIcon.NAME"> -->
+        <!-- Title-of-Section </tocitem> -->
+        <!-- where NAME is one of the following (use capital letters): -->
+        <!-- FUNCTION, USER_GUIDE, EXAMPLES, BLOCK, GETTING_STARTED, -->
+        <!-- DEMOS, RELEASE_NOTES --> 
+        <!-- Icon images used for these entries are also stored in -->
+        <!-- matlabroot/toolbox/matlab/icons -->
+        <!-- A Getting Started Guide usually comes first -->
+        <tocitem target="Tutorials/html/physvis_toolbox_getting_started.html" image="HelpIcon.GETTING_STARTED">
+            Getting Started with PHYSVIS
+                <tocitem target="Tutorials/html/physvis_toolbox_basics.html">PHYSVIS Basics</tocitem>
+                <tocitem target="Tutorials/html/physvis_toolbox_visual_objects.html">Visual Objects</tocitem>
+                <tocitem target="Tutorials/html/physvis_toolbox_programming.html">Programming and Scripts</tocitem>
+                <tocitem target="Tutorials/html/physvis_toolbox_animation.html">Animation</tocitem>
+            </tocitem>
+        <!-- List of Examples, with hyperlinks to examples in other files -->
+        <tocitem target="Examples/html/physvis_toolbox_examples.html" 
+                 image="HelpIcon.HelpIcon.EXAMPLES">Examples
+            <tocitem target="Examples/html/pendulumExample.html">Simple Pendulum</tocitem>     
+            <tocitem target="Examples/html/bounceExample.html">Bouncing Ball</tocitem>
+            <tocitem target="Examples/html/tumblingBoxExample.html">Tumbling Box</tocitem>
+            <tocitem target="Examples/html/rotatingBoxesExample.html">Rotating Boxes</tocitem>
+        </tocitem>
+        <!-- Class reference next -->
+        <!-- First item is page describing class categories, if any -->
+        <tocitem target="Classes/html/physvis_toolbox_classes.html" 
+                 image="HelpIcon.FUNCTION">Classes
+            <!-- First category, with link to anchor in above page -->
+            <tocitem target="Classes/html/physvis_toolbox_classes.html#1">Shapes</tocitem>
+            <tocitem target="Classes/html/physvis_toolbox_classes.html#2">Visual Properties</tocitem>
+            <tocitem target="Classes/html/physvis_toolbox_classes.html#3">Mathematical Classes</tocitem>
+            <tocitem target="Classes/html/physvis_toolbox_classes.html#4">Core Classes</tocitem>
+            <tocitem target="Classes/html/physvis_toolbox_classes.html#5">Interactive Display</tocitem>
+        </tocitem>
+        <!-- Optional link or links to your or other Web sites -->
+        <tocitem target="https://www.mathworks.com/academia/courseware/teaching-physics-with-matlab.html" 
+                 image="$toolbox/matlab/icons/webicon.gif">
+        Teaching Physics with MATLAB
+        </tocitem>
+        <tocitem target="https://www.mathworks.com/academia.html" 
+                 image="$toolbox/matlab/icons/webicon.gif">
+        MathWorks Resources for Academia
+        </tocitem>
+    </tocitem>
+</toc>

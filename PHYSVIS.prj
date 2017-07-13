@@ -1,0 +1,141 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="707164407" file="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox\PHYSVIS.prj" location="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox" name="PHYSVIS" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>PHYSVIS</param.appname>
+    <param.authnamewatermark>James Kristoff and Paul Kassebaum</param.authnamewatermark>
+    <param.email>physics-community-profile@mathworks.com</param.email>
+    <param.company>The MathWorks, Inc.</param.company>
+    <param.summary>Visually explore physical systems with equations of motion instead of graphics statements.</param.summary>
+    <param.description>Students use PHYSVIS to gain a deeper understanding of physics as they iteratively apply the fundamental laws of physics to compute and visualize a system's evolution. PHYSVIS lets you explore physical systems visually without having to write explicit graphics statements. PHYSVIS is built with the matrix-based MATLAB® language so you can express computational mathematics in a natural way as you translate theoretical models into code.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\design-documents\physvis_logo_symmetric.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\PHYSVIS.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>563c7d77-bd7d-44c4-bd26-7084f9d1c764</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.git*
+design-documents/*
+design-documents
+tests
+tests/*
+runTests.m
+demos.xml
+*.m
+*.asv</param.exclude.filters>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="Examples"&gt;
+      &lt;example name="bounceExample" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs>${PROJECT_ROOT}\info.xml</param.docs>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.demosxml />
+      <param.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\+physvis</file>
+      <file>${PROJECT_ROOT}\doc</file>
+      <file>${PROJECT_ROOT}\info.xml</file>
+      <file>${PROJECT_ROOT}\license.txt</file>
+      <file>${PROJECT_ROOT}\README.md</file>
+      <file>${PROJECT_ROOT}\resources</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox" name="PHYSVIS.mltbx" optional="false">C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox\PHYSVIS.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

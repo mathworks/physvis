@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- © Copyright 2017 The MathWorks, Inc. -->
+
+<messageCatalog>
+    <message>
+        <id>UnsupportedAssignmentType</id>
+        <string lang="en">Unsupported assignment type: %s\n</string>
+    </message>
+    <message>
+        <id>GetProhibited</id>
+        <string lang="en">No public property '%s' for class %s.\n</string>
+    </message>
+    <message>
+        <id>SetProhibitedNotReadOnly</id>
+        <string lang="en">You cannot set the '%s' property of %s.\n</string>
+    </message>
+    <message>
+        <id>BadIndexType</id>
+        <string lang="en">Indicies must be numeric or logical.\n</string>
+    </message>
+    <message>
+        <id>InvalidLogicalProperty</id>
+        <string lang="en">%s must be numeric or logical.\n</string>
+    </message>
+    <message>
+        <id>InvalidParameters</id>
+        <string lang="en">The following parameters are invalid:\n%s</string>
+    </message>
+    <message>
+        <id>InvalidScalarProperty</id>
+        <string lang="en">%s must be a scalar.\n</string>
+    </message>
+    <message>
+        <id>InvalidNumberOfArgs</id>
+        <string lang="en">Incorrect number of input arguments.</string>
+    </message>
+    <message>
+        <id>InvalidCanvas</id>
+        <string lang="en">Expected a valid axes, but found %s instead.\n</string>
+    </message>
+    <message>
+        <id>IdNotFound</id>
+        <string lang="en">Message Id '%s' not found.\n</string>
+    </message>
+    <message>
+        <id>InvalidPositionSize</id>
+        <string lang="en">The Position property must be a numeric nx2 or nx3 matrix.\n</string>
+    </message>
+</messageCatalog>
