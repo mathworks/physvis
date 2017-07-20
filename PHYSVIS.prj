@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="707164407" file="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox\PHYSVIS.prj" location="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox" name="PHYSVIS" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="707164407" file="C:\MATLAB\physics\physvis_toolbox\PHYSVIS.prj" location="C:\MATLAB\physics\physvis_toolbox" name="PHYSVIS" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>PHYSVIS</param.appname>
     <param.authnamewatermark>James Kristoff and Paul Kassebaum</param.authnamewatermark>
     <param.email>physics-community-profile@mathworks.com</param.email>
@@ -44,10 +44,71 @@ demos.xml
 *.asv</param.exclude.filters>
     <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;examples&gt;
+   &lt;exampleCategory name="Classes"&gt;
+      &lt;example name="physvis_toolbox_classes" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Classes/html/physvis_toolbox_classes.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Classes/physvis_toolbox_classes.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
    &lt;exampleCategory name="Examples"&gt;
+      &lt;example name="physvis_toolbox_examples" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Examples/html/physvis_toolbox_examples.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Examples/physvis_toolbox_examples.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
       &lt;example name="bounceExample" type="html"&gt;
-         &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="source"&gt;/doc/Examples/html/bounceExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Examples/bounceExample.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="pendulumExample" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Examples/html/pendulumExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Examples/pendulumExample.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="rotatingBoxesExample" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Examples/html/rotatingBoxesExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Examples/rotatingBoxesExample.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="tumblingBoxExample" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Examples/html/tumblingBoxExample.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Examples/tumblingBoxExample.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="Tutorials"&gt;
+      &lt;example name="physvis_toolbox_getting_started" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Tutorials/html/physvis_toolbox_getting_started.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Tutorials/physvis_toolbox_getting_started.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="physvis_toolbox_animation" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Tutorials/html/physvis_toolbox_animation.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Tutorials/physvis_toolbox_animation.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="physvis_toolbox_basics" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Tutorials/html/physvis_toolbox_basics.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Tutorials/physvis_toolbox_basics.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="physvis_toolbox_programming" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Tutorials/html/physvis_toolbox_programming.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Tutorials/physvis_toolbox_programming.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="physvis_toolbox_visual_objects" type="html"&gt;
+         &lt;file type="source"&gt;/doc/Tutorials/html/physvis_toolbox_visual_objects.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/Tutorials/physvis_toolbox_visual_objects.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="ProductPage"&gt;
+      &lt;example name="physvis_toolbox_product_page" type="html"&gt;
+         &lt;file type="source"&gt;/doc/ProductPage/html/physvis_toolbox_product_page.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/ProductPage/physvis_toolbox_product_page.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
@@ -70,7 +131,7 @@ demos.xml
       <param.javaclasspath.excludes />
     </unset>
     <fileset.rootdir>
-      <file>C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox</file>
+      <file>C:\MATLAB\physics\physvis_toolbox</file>
     </fileset.rootdir>
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}\+physvis</file>
@@ -84,7 +145,7 @@ demos.xml
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox" name="PHYSVIS.mltbx" optional="false">C:\Users\pkasseba\Documents\MATLAB\physics\physvis_toolbox\PHYSVIS.mltbx</file>
+      <file location="C:\MATLAB\physics\physvis_toolbox" name="PHYSVIS.mltbx" optional="false">C:\MATLAB\physics\physvis_toolbox\PHYSVIS.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
